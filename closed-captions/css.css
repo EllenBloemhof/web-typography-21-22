@@ -5,10 +5,27 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+body {
+	background-color: black;
+}
+
+#video-placeholder {
+	display: block;
+	margin: 0 auto;
+	margin-top: 5em;
+	height: 30em;
+	width: 40em;
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	color: white;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -29,70 +46,87 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
+
+/* eerste zin */
 .p0 span {
 	opacity: 0;
 	font-family: brenner;
+	font-family: "brenner mono";
+	color: green;
 }
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	font-weight: 200;
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
 	margin-right: -.25em;
-	font-weight: 400;
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
 	margin-right: -.25em;
-	font-weight: 600;
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .7s;
 	margin-right: -.25em;
-	font-weight: 800;
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s 1.1s;
 	margin-right: -.25em;
-	font-family: "brenner sans";
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
 	margin-right: -.25em;
-	font-family: "brenner script";
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	font-family: "brenner script";
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-family: "brenner mono";
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-	font-family: "brenner slab";
+}
+
+/* tweede zin */
+.p1 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
+}
+
+/* derde zin */
+.p2 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner mono";
+	color: green;
+}
+
+/* vierde zin */
+.p1 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
 }
 
 /* **********************************************
@@ -103,14 +137,18 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	background: yellow;
+.sound5 {
+	background-color: gray;
 }
 
 iframe {
 	transition: 1s;
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
+
 .sound1 iframe {
+	
+}
+/* .sound1 iframe {
 	transform: rotate(1turn);
 }
