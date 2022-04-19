@@ -7,7 +7,7 @@ Feel free to adjust the defaults to your needs.
 ********************************************** */
 
 body {
-	background-color: black;
+	background-color: #1d2424;
 }
 
 #video-placeholder {
@@ -122,12 +122,20 @@ You probably want to change the styling.
 }
 
 /* vierde zin */
-.p1 span {
+.p3 span {
 	opacity: 1;
 	font-family: brenner;
 	font-family: "brenner sans";
-	font-size: 2em;
+	font-size: 1em;
 }
+
+.p3.on span:nth-of-type(6) {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+}
+/* vijfde zin */
 
 /* **********************************************
 Sounds.
@@ -138,7 +146,8 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound5 {
-	background-color: gray;
+	background-color: #141617;
+	transition: background-color 0.5s ease;
 }
 
 iframe {
@@ -146,9 +155,14 @@ iframe {
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 
-.sound1 iframe {
-	
-}
-/* .sound1 iframe {
+.sound2 iframe {
 	transform: rotate(1turn);
+}
+
+.sound6 iframe {
+	transform:scale(1.5);
+}
+
+.sound7 iframe {
+	transform:scale(1);
 }
