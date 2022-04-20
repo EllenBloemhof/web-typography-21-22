@@ -110,7 +110,8 @@ You probably want to change the styling.
 	opacity: 1;
 	font-family: brenner;
 	font-family: "brenner sans";
-	font-size: 2em;
+	font-size: 1em;
+	font-style: italic;
 }
 
 /* derde zin */
@@ -118,6 +119,7 @@ You probably want to change the styling.
 	opacity: 1;
 	font-family: brenner;
 	font-family: "brenner mono";
+	font-style: normal;
 	color: green;
 }
 
@@ -127,15 +129,176 @@ You probably want to change the styling.
 	font-family: brenner;
 	font-family: "brenner sans";
 	font-size: 1em;
+	font-style: italic;
 }
 
 .p3.on span:nth-of-type(6) {
 	opacity: 1;
 	font-family: brenner;
 	font-family: "brenner sans";
-	font-size: 1em;
 }
 /* vijfde zin */
+.p4 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+}
+
+/* zesde zin */
+.p5 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+}
+
+/* zevende zin, 24 sec. */
+.p6 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-weight: bold;
+	margin-top: 3em;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+/* achtste zin */
+.p7 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+}
+
+/* negende zin */
+.p8 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	color: #7f1714;
+}
+
+/* tiende zin */
+.p9 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+/* elfde zin, 34 sec. */
+.p10 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
+/* twaalfde zin */
+.p11 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	color: #7f1714;
+}
+
+/* dertiende zin */
+.p12 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
+/* veertiende zin */
+.p13 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+/* vijftiende zin */
+.p14 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
+	font-weight: bold;
+	font-style: normal;
+	color: #7f1714;
+}
+
+/* zestiende zin */
+.p15 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+/* zeventiende zin*/
+.p16 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
+/* achttiende zin */
+.p17 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	color: #7f1714;
+}
+
+/* negentiende zin*/
+.p18 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+/* twintigste zin */
+.p19 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	color: #7f1714;
+}
 
 /* **********************************************
 Sounds.
@@ -165,4 +328,10 @@ iframe {
 
 .sound7 iframe {
 	transform:scale(1);
+}
+
+.sound10 {
+	background-color: #9faa97;
+	transition: background-color 0.5s ease;
+	color: black;
 }
