@@ -7,7 +7,7 @@ Feel free to adjust the defaults to your needs.
 ********************************************** */
 
 body {
-	background-color: #1d2424;
+	background-color: #0f1417;
 }
 
 #video-placeholder {
@@ -114,7 +114,7 @@ You probably want to change the styling.
 	font-style: italic;
 }
 
-/* derde zin */
+/* 10 sec. */
 .p2 span {
 	opacity: 1;
 	font-family: brenner;
@@ -123,7 +123,6 @@ You probably want to change the styling.
 	color: green;
 }
 
-/* vierde zin */
 .p3 span {
 	opacity: 1;
 	font-family: brenner;
@@ -137,7 +136,7 @@ You probably want to change the styling.
 	font-family: brenner;
 	font-family: "brenner sans";
 }
-/* vijfde zin */
+
 .p4 span {
 	opacity: 1;
 	font-family: brenner;
@@ -146,7 +145,7 @@ You probably want to change the styling.
 	font-style: italic;
 }
 
-/* zesde zin */
+/* 20 sec. */
 .p5 span {
 	opacity: 1;
 	font-family: brenner;
@@ -155,18 +154,16 @@ You probably want to change the styling.
 	font-style: italic;
 }
 
-/* zevende zin, 24 sec. */
 .p6 span {
 	opacity: 1;
 	font-family: brenner;
 	font-family: "brenner sans";
 	font-weight: bold;
-	margin-top: 3em;
 	font-size: 3em;
 	text-transform: uppercase;
 }
 
-/* achtste zin */
+/* 30 sec. ish */
 .p7 span {
 	opacity: 1;
 	font-family: brenner;
@@ -175,7 +172,6 @@ You probably want to change the styling.
 	font-style: italic;
 }
 
-/* negende zin */
 .p8 span {
 	opacity: 1;
 	font-family: brenner;
@@ -186,7 +182,6 @@ You probably want to change the styling.
 	color: #7f1714;
 }
 
-/* tiende zin */
 .p9 span {
 	opacity: 1;
 	font-family: brenner;
@@ -196,17 +191,16 @@ You probably want to change the styling.
 	color: black;
 }
 
-/* elfde zin, 34 sec. */
 .p10 span {
 	opacity: 1;
 	font-family: brenner;
 	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: normal;
-	color: black;
+	font-weight: bold;
+	color: #7f1714;
 }
 
-/* twaalfde zin */
 .p11 span {
 	opacity: 1;
 	font-family: brenner;
@@ -217,7 +211,6 @@ You probably want to change the styling.
 	color: #7f1714;
 }
 
-/* dertiende zin */
 .p12 span {
 	opacity: 1;
 	font-family: brenner;
@@ -227,7 +220,6 @@ You probably want to change the styling.
 	color: black;
 }
 
-/* veertiende zin */
 .p13 span {
 	opacity: 1;
 	font-family: brenner;
@@ -237,7 +229,6 @@ You probably want to change the styling.
 	color: black;
 }
 
-/* vijftiende zin */
 .p14 span {
 	opacity: 1;
 	font-family: brenner;
@@ -248,7 +239,6 @@ You probably want to change the styling.
 	color: #7f1714;
 }
 
-/* zestiende zin */
 .p15 span {
 	opacity: 1;
 	font-family: brenner;
@@ -258,7 +248,6 @@ You probably want to change the styling.
 	color: black;
 }
 
-/* zeventiende zin*/
 .p16 span {
 	opacity: 1;
 	font-family: brenner;
@@ -268,7 +257,6 @@ You probably want to change the styling.
 	color: black;
 }
 
-/* achttiende zin */
 .p17 span {
 	opacity: 1;
 	font-family: brenner;
@@ -279,7 +267,6 @@ You probably want to change the styling.
 	color: #7f1714;
 }
 
-/* negentiende zin*/
 .p18 span {
 	opacity: 1;
 	font-family: brenner;
@@ -289,7 +276,6 @@ You probably want to change the styling.
 	color: black;
 }
 
-/* twintigste zin */
 .p19 span {
 	opacity: 1;
 	font-family: brenner;
@@ -300,6 +286,147 @@ You probably want to change the styling.
 	color: #7f1714;
 }
 
+.p20 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+.p21 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
+.p22 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	color: #7f1714;
+}
+
+.p23 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+/* 50 sec. */
+.p24 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
+.p25 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1.3em;
+	font-style: normal;
+	font-weight: bold;
+	color: #7f1714;
+}
+
+.p26 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+.p27 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
+.p28 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	font-weight: bold;
+	color: #7f1714;
+}
+
+.p29 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+.p30 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
+.p31 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: italic;
+	color: black;
+}
+
+.p32 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
+.p33 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	color: #7f1714;
+}
+
+/* 1 minuut */
+.p34 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner sans";
+	font-size: 1em;
+	font-style: normal;
+	color: black;
+}
+
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -308,29 +435,68 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound5 {
-	background-color: #141617;
-	transition: background-color 0.5s ease;
-}
 
 iframe {
 	transition: 1s;
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 
-.sound2 iframe {
-	transform: rotate(1turn);
+.sound0 {
+	background-color: #000000;
+	transition: background-color 0.1s ease;
 }
 
-.sound6 iframe {
+.sound1 {
+	background-color: #1a1f1f;
+	transition: background-color 0.1s ease;
+}
+
+.sound2 iframe {
 	transform:scale(1.5);
 }
 
-.sound7 iframe {
+.sound2 {
+	background-color: #7f1714;
+	transition: background-color 0.2s ease;
+}
+
+.sound3 iframe {
 	transform:scale(1);
 }
 
-.sound10 {
+.sound3 {
+	background-color: #1a1f1f;
+	transition: background-color 0.2s ease;
+}
+
+.sound4 iframe {
+	transform: rotate(1turn);
+}
+
+.sound5 iframe {
+	transform:scale(1.5);
+}
+
+.sound5 {
+	background-color: #7f1714;
+	transition: background-color 0.2s ease;
+}
+
+.sound6 iframe {
+	transform:scale(1);
+}
+
+.sound6 {
+	background-color: #1d2424;
+	transition: background-color 0.2s ease;
+}
+
+.sound7 {
+	background-color: #141617;
+	transition: background-color 0.5s ease;
+}
+
+.sound13 {
 	background-color: #9faa97;
 	transition: background-color 0.5s ease;
 	color: black;
