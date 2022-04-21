@@ -346,54 +346,154 @@ iframe {
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 
 .sound0 {
-	background-color: #000000;
+	animation-name: intro;
+	animation-duration: 3s;
+}
+
+@keyframes intro {
+	0% {
+		background-color: #ffffff;
+	}
+	100% {
+		background-color: #000000;
+	}
 }
 
 .sound1 {
-	background-color: #1a1f1f;
-}
-
-.sound2 iframe {
-	transform:scale(1.5);
+	background-color: #000000;
 }
 
 .sound2 {
-	background-color: #7f1714;
-}
-
-.sound3 iframe {
-	transform:scale(1);
-}
-
-.sound3 {
 	background-color: #1a1f1f;
 }
 
-.sound5 iframe {
+.sound3 iframe {
 	transform:scale(1.5);
 }
 
-.sound5 {
+.sound3 {
+	background-color: #7f1714;
+}
+
+.sound4 iframe {
+	transform:scale(1);
+}
+
+.sound4 {
+	background-color: #1a1f1f;
+}
+
+.sound6 iframe {
+	transform:scale(1.5);
+}
+
+.sound6 {
 	background-color: #7f1714;
 	transition: background-color 0.2s ease;
 }
 
-.sound6 iframe {
+.sound7 iframe {
 	transform:scale(1);
 }
 
-.sound6 {
+.sound7 {
 	background-color: #1d2424;
 	transition: background-color 0.2s ease;
 }
 
-.sound7 {
+.sound8 {
 	background-color: #141617;
 	transition: background-color 0.5s ease;
 }
 
-.sound13 {
+/* bron: .. */
+.sound12 iframe {
+	animation-name: laag;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes laag {
+	0% {
+		transform:translate(0)
+	}
+	20% { 
+		transform:translate(-0.02em,0.02em)
+	}
+	40% { 
+		transform:translate(-0.02em,-0.02em)
+	}
+	60% {
+		transform:translate(0.02em,0.02em)
+	}
+	80% {
+		transform:translate(0.02em,-0.02em)
+		}
+	100% {
+	transform:translate(0)
+	}
+  }
+
+.sound15 {
 	background-color: #9faa97;
 	transition: background-color 0.5s ease;
 	color: black;
 }
+
+.sound16 iframe {
+	animation-name: hoog;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes hoog {
+	0% {
+		transform:translate(0)
+	}
+	20% { 
+		transform:translate(-0.1em,0.1em)
+	}
+	40% { 
+		transform:translate(-0.1em,-0.1em)
+	}
+	60% {
+		transform:translate(0.1em,0.1em)
+	}
+	80% {
+		transform:translate(0.1em,-0.1em)
+		}
+	100% {
+	transform:translate(0)
+	}
+  }
+
+  .sound17 iframe {
+	animation-name: hoger;
+	animation-duration: 0.3s;
+	animation-iteration-count: 17s;
+}
+
+@keyframes hoger {
+	0% {
+		transform:translate(0)
+	}
+	20% { 
+		transform:translate(-0.2em,0.2em)
+	}
+	40% { 
+		transform:translate(-0.2em,-0.2em)
+	}
+	60% {
+		transform:translate(0.2em,0.2em)
+	}
+	80% {
+		transform:translate(0.2em,-0.2em)
+		}
+	100% {
+	transform:translate(0)
+	}
+  }
+
+  .sound18 iframe::after {
+	  transform: none;
+  }
