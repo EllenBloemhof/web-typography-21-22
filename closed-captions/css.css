@@ -8,6 +8,7 @@ Feel free to adjust the defaults to your needs.
 
 body {
 	background-color: #0f1417;
+	transition: 0.1s ease;
 }
 
 #video-placeholder {
@@ -24,8 +25,6 @@ body {
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	font-size: 1em;
-	color: white;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -36,6 +35,14 @@ body {
 }
 .voice1 {
 	font-style: italic;
+}
+
+
+p span {
+	opacity: 1;
+	font-family: "brenner sans";
+	font-size: 1em;
+	color: black;
 }
 
 /* **********************************************
@@ -107,311 +114,211 @@ You probably want to change the styling.
 
 /* tweede zin */
 .p1 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
-	font-size: 1em;
 	font-style: italic;
+	color: white;
 }
 
 /* 10 sec. */
 .p2 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner mono";
 	font-style: normal;
 	color: green;
+	font-family: "brenner mono";
 }
 
 .p3 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
-	font-size: 1em;
 	font-style: italic;
+	color: white;
 }
 
-.p3.on span:nth-of-type(6) {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
-}
 
 .p4 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
-	font-size: 1em;
 	font-style: italic;
+	color: white;
 }
 
 /* 20 sec. */
 .p5 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
-	font-size: 1em;
 	font-style: italic;
+	color: white;
 }
 
 .p6 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-weight: bold;
 	font-size: 3em;
 	text-transform: uppercase;
+	color: white;
 }
 
 /* 30 sec. ish */
 .p7 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: italic;
+	color: white;
 }
 
 .p8 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 2em;
 	font-style: normal;
 	font-weight: bold;
+	font-family: "brenner mono";
 	color: #7f1714;
 }
 
 .p9 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: italic;
-	color: black;
 }
 
 .p10 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
-	font-size: 1em;
 	font-style: normal;
 	font-weight: bold;
+	font-family: "brenner mono";
 	color: #7f1714;
 }
 
 .p11 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 2em;
 	font-style: normal;
 	font-weight: bold;
+	font-family: "brenner mono";
 	color: #7f1714;
 }
 
 .p12 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
-	font-style: normal;
-	color: black;
+	font-style: italic;
 }
 
 .p13 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
-	font-style: italic;
-	color: black;
+	font-style: normal;
+	font-family: "brenner mono";
 }
 
 .p14 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 2em;
 	font-weight: bold;
 	font-style: normal;
+	font-family: "brenner mono";
 	color: #7f1714;
 }
 
 .p15 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: italic;
-	color: black;
 }
 
 .p16 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: normal;
-	color: black;
+	font-family: "brenner mono";
 }
 
 .p17 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 2em;
+	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: bold;
 	color: #7f1714;
 }
 
 .p18 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: italic;
-	color: black;
 }
 
 .p19 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 2em;
+	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: bold;
 	color: #7f1714;
 }
 
 .p20 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: italic;
-	color: black;
 }
 
 .p21 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
+	font-family: "brenner mono";
 	font-style: normal;
-	color: black;
 }
 
 .p22 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 2em;
+	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: bold;
 	color: #7f1714;
 }
 
 .p23 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
+	font-family: "brenner mono";
 	font-style: italic;
-	color: black;
 }
 
 /* 50 sec. */
 .p24 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
+	font-family: "brenner mono";
 	font-style: normal;
-	color: black;
 }
 
 .p25 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1.3em;
+	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: bold;
 	color: #7f1714;
 }
 
 .p26 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: italic;
-	color: black;
 }
 
 .p27 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
+	font-family: "brenner mono";
 	font-style: normal;
-	color: black;
 }
 
 .p28 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
+	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: bold;
 	color: #7f1714;
 }
 
 .p29 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: italic;
-	color: black;
 }
 
 .p30 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
+	font-family: "brenner mono";
 	font-style: normal;
-	color: black;
 }
 
 .p31 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
 	font-style: italic;
-	color: black;
 }
 
 .p32 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
+	font-family: "brenner mono";
 	font-style: normal;
-	color: black;
 }
 
 .p33 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 2em;
+	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: bold;
 	color: #7f1714;
@@ -419,12 +326,9 @@ You probably want to change the styling.
 
 /* 1 minuut */
 .p34 span {
-	opacity: 1;
-	font-family: brenner;
-	font-family: "brenner sans";
 	font-size: 1em;
+	font-family: "brenner mono";
 	font-style: normal;
-	color: black;
 }
 
 /* **********************************************
@@ -443,12 +347,10 @@ iframe {
 
 .sound0 {
 	background-color: #000000;
-	transition: background-color 0.1s ease;
 }
 
 .sound1 {
 	background-color: #1a1f1f;
-	transition: background-color 0.1s ease;
 }
 
 .sound2 iframe {
@@ -457,7 +359,6 @@ iframe {
 
 .sound2 {
 	background-color: #7f1714;
-	transition: background-color 0.2s ease;
 }
 
 .sound3 iframe {
@@ -466,11 +367,6 @@ iframe {
 
 .sound3 {
 	background-color: #1a1f1f;
-	transition: background-color 0.2s ease;
-}
-
-.sound4 iframe {
-	transform: rotate(1turn);
 }
 
 .sound5 iframe {
