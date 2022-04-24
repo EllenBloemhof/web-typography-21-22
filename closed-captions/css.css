@@ -25,6 +25,7 @@ body {
 	position: absolute;
 	width: 100%;
 	text-align: center;
+	margin-top: 4em;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -58,6 +59,10 @@ p span {
 	font-style:normal;
 }
 
+.voice4 :first-of-type:before {
+	content: "🔈  ­";
+}
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -72,10 +77,9 @@ You probably want to change the styling.
 	opacity: 1;
 	font-family: brenner;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
-/* tweede zin */
 .p1 span {
 	font-style: italic;
 	color: white;
@@ -84,7 +88,7 @@ You probably want to change the styling.
 /* 10 sec. */
 .p2 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p3 span {
@@ -105,14 +109,13 @@ You probably want to change the styling.
 }
 
 .p6 span {
-	font-weight: bold;
-	font-size: 1em;
+	font-size: 0.5em;
 	font-style: italic;
 	color:  #f4b13b;
 }
 
 .p6.on span {
-	font-size: 3em;
+	font-size: 1em;
 	transition: .2s;
 }
 
@@ -126,7 +129,7 @@ You probably want to change the styling.
 	font-size: 2em;
 	font-weight: bold;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p9 span {
@@ -135,14 +138,14 @@ You probably want to change the styling.
 
 .p10 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p11 span {
 	font-size: 2em;
 	font-weight: bold;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p12 span {
@@ -151,14 +154,14 @@ You probably want to change the styling.
 
 .p13 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p14 span {
 	font-size: 2em;
 	font-weight: bold;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p15 span {
@@ -167,14 +170,14 @@ You probably want to change the styling.
 
 .p16 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p17 span {
 	font-size: 2em;
 	font-weight: bold;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p18 span {
@@ -186,7 +189,7 @@ You probably want to change the styling.
 	font-size: 2em;
 	font-weight: bold;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p20 span {
@@ -195,14 +198,14 @@ You probably want to change the styling.
 
 .p21 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p22 span {
 	font-size: 1.5em;
 	font-weight: bold;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p23 span {
@@ -213,14 +216,14 @@ You probably want to change the styling.
 /* 50 sec. */
 .p24 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p25 span {
 	font-size: 1.3em;
 	font-weight: bold;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p26 span {
@@ -230,12 +233,12 @@ You probably want to change the styling.
 
 .p27 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p28 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 	font-weight: bold;
 }
 
@@ -245,7 +248,7 @@ You probably want to change the styling.
 
 .p30 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p31 span {
@@ -255,27 +258,52 @@ You probably want to change the styling.
 
 .p32 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
 .p33 span {
 	font-size: 2em;
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 	font-weight: bold;
 }
 
 /* 1 minuut */
-.p34 span {
-	font-family: "brenner mono";
-	color: #a42216;
-}
-
 .p35 span {
 	font-family: "brenner mono";
-	color: #a42216;
+	color: #66ff33;
 }
 
+.p36 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p38 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p40 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+/* side note: NIEUWE STEM? misschien kleur aanpassen! */
+.p44 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p45 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p46 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -392,53 +420,82 @@ iframe {
 	background-color: #1a1f1f;
 }
 
-/* .sound5 {
-	-webkit-animation: color-change-2x 2s linear infinite alternate both;
-	        animation: color-change-2x 2s linear infinite alternate both;
+.sound5 {
+	-webkit-animation: color-change-2x 1s linear alternate both;
+	        animation: color-change-2x 1s linear alternate both;
 }
 
-@-webkit-keyframes color-change-2x {
+@keyframes color-change-2x {
 	0% {
-	  background: #19dcea;
+	  background-color: #19dcea;
+	}
 	50% {
 		background-color: #a42216;
 	}
-	}
 	100% {
-	  background: #1a1f1f;
+	  background-color: #1a1f1f;
 	}
-  } */
+  } 
 
 .sound6 iframe {
 	transform:scale(1.5);
 }
 
 .sound6 {
-	background-color: #7f1714;
-	transition: background-color 0.2s ease;
+	-webkit-animation: color-change-2x 1.8s linear alternate both;
+	        animation: sirene 1.8s linear alternate both;
 }
+
+@keyframes sirene {
+	0% {
+	  background-color: #1a1f1f;
+	}
+	50% {
+		background-color: #a42216;
+	}
+	100% {
+	  background-color: #1a1f1f;
+	}
+  } 
 
 .sound7 iframe {
 	transform:scale(1);
 }
 
-.sound7 {
-	background-color: #1d2424;
-	transition: background-color 0.2s ease;
+.sound8 {
+	-webkit-animation: color-change-2x 0.2s linear alternate both;
+	        animation: scene2 0.2s linear alternate both;
 }
 
-.sound8 {
-	background-color: #141617;
-	transition: background-color 0.5s ease;
-}
+@keyframes scene2 {
+	0% {
+	  background-color: #1a1f1f;
+	}
+	100% {
+	  background-color: #141617;
+	}
+  } 
 
 .sound11 iframe {
 	transform:scale(1.5);
 }
 
 .sound11 {
-	background-color:#7f1714;
+	-webkit-animation: color-change-2x 1.8s linear alternate both;
+	        animation: sirene 1.8s linear alternate both;
 }
+
+@keyframes sirene {
+	0% {
+	  background-color: #1a1f1f;
+	}
+	50% {
+		background-color: #a42216;
+	}
+	100% {
+	  background-color: #1a1f1f;
+	}
+  } 
 
 .sound12 iframe {
 	transform:scale(1);
@@ -448,8 +505,49 @@ iframe {
 	background-color: #1d2424;
 }
 
+.sound14 {
+	-webkit-animation: color-change-2x 1.8s linear alternate both;
+	        animation: sirene3 1.8s linear alternate both;
+}
+
+@keyframes sirene3 {
+	0% {
+	  background-color: #1a1f1f;
+	}
+	50% {
+		background-color: #a42216;
+	}
+	100% {
+	  background-color: #9faa97;
+	}
+  } 
+
+.sound14 iframe {
+	transform:scale(1.5);
+}
+
+.sound15 iframe {
+	transform:scale(1);
+}
+
+.sound16 {
+	-webkit-animation: color-change-2x 41.5s linear alternate both;
+	        animation: pieptoon 41.5s linear alternate both;
+}
+
+@keyframes pieptoon {
+	0% {
+	  background-color: #9faa97;
+	}
+	99% {
+		background-color: red;
+	}
+	100% {
+	  background-color: #9faa97;
+	}
+  } 
 /* bron: https://animista.net/play/attention */
-.sound13 iframe {
+.sound16 iframe {
 	animation-name: laag;
 	animation-duration: 0.3s;
 	animation-iteration-count: infinite;
@@ -475,12 +573,6 @@ iframe {
 	transform:translate(0)
 	}
   }
-
-.sound16 {
-	background-color: #9faa97;
-	transition: background-color 0.5s ease;
-	color: black;
-}
 
 .sound17 iframe {
 	animation-name: hoog;
@@ -562,3 +654,32 @@ iframe {
 	transform:translate(0)
 	}
   }
+
+  /* Bron: https://daily-dev-tips.com/posts/css-keyframe-animation-floating-blocks/ */
+ /* hIER BEN JE GEBLEVEN */ 
+  .sound20 iframe {
+	animation: zweef 10s linear 44;
+	bottom: 2em;
+
+	animation: draaien 43s linear 1;
+}
+
+  @keyframes zweef {
+	50% 
+	{
+	  transform: translateY(3em);
+	}
+  }
+
+@keyframes draaien {
+		0% {
+		  -webkit-transform: rotate(0deg);
+		  transform: rotate(0deg);
+		}
+	
+		100% {
+		  -webkit-transform: rotate(720deg);
+		  transform: rotate(720deg);
+		}
+	  }
+	  
