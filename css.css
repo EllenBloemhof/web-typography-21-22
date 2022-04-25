@@ -1,0 +1,770 @@
+/* **********************************************
+Basic mechanics
+Hide all paragraphs by default
+Show them when they receive the class 'on'
+Hide them when they receive the class 'off'
+Feel free to adjust the defaults to your needs.
+********************************************** */
+
+body {
+	background-color: #0f1417;
+	transition: 0.1s ease;
+}
+
+#video-placeholder {
+	display: block;
+	margin: 0 auto;
+	margin-top: 5em;
+	height: 30em;
+	width: 40em;
+}
+
+#closed-captions p {
+	opacity: 0;
+	transition: .05s;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 4em;
+}
+
+#closed-captions .on {
+	opacity: 1;
+}
+
+#closed-captions .off {
+	transition: .2s;
+	opacity: 0;
+}
+
+p span {
+	opacity: 1;
+	font-family: "brenner sans";
+	font-size: 1em;
+	color: black;
+}
+
+.voice1 p span {
+	font-style:normal;
+}
+
+.voice1 :first-of-type:before {
+	content: "🔈  ­";
+}
+
+.voice2 p span {
+	font-style:italic;
+}
+
+.voice2 :first-of-type:before {
+	content: "🧑🏽  ­";
+	font-style:normal;
+}
+
+.voice4 :first-of-type:before {
+	content: "🔈  ­";
+}
+
+.voice5 :first-of-type:before {
+	content: "🔈  ­";
+}
+
+/* **********************************************
+The first paragraph, with extended timing for 
+	all siblings. Basically what it does is that
+	it shows the text after a delay, which 
+	corresponds with the time that the word is
+	spoken.
+You probably want to change the styling.
+********************************************** */
+
+/* eerste zin */
+.p0 span {
+	opacity: 1;
+	font-family: brenner;
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p1 span {
+	font-style: italic;
+	color: white;
+}
+
+/* 10 sec. */
+.p2 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p3 span {
+	font-style: italic;
+	color: white;
+}
+
+
+.p4 span {
+	font-style: italic;
+	color: white;
+}
+
+/* 20 sec. */
+.p5 span {
+	font-style: italic;
+	color: white;
+}
+
+.p6 span {
+	font-size: 0.5em;
+	font-style: italic;
+	color:  #f4b13b;
+}
+
+.p6.on span {
+	font-size: 1em;
+	transition: .2s;
+}
+
+/* 30 sec. ish */
+.p7 span {
+	font-style: italic;
+	color: white;
+}
+
+.p8 span {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p9 span {
+	font-style: italic;
+}
+
+.p10 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p11 span {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p12 span {
+	font-style: italic;
+}
+
+.p13 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p14 span {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p15 span {
+	font-style: italic;
+}
+
+.p16 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p17 span {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p18 span {
+	font-size: 1em;
+	font-style: italic;
+}
+
+.p19 span {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p20 span {
+	font-style: italic;
+}
+
+.p21 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p22 span {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p23 span {
+	font-size: 1em;
+	font-style: italic;
+}
+
+/* 50 sec. */
+.p24 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p25 span {
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p26 span {
+	font-size: 1em;
+	font-style: italic;
+}
+
+.p27 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p28 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+	font-weight: bold;
+}
+
+.p29 span {
+	font-style: italic;
+}
+
+.p30 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p31 span {
+	font-size: 1em;
+	font-style: italic;
+}
+
+.p32 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p33 span {
+	font-size: 2em;
+	font-family: "brenner mono";
+	color: #66ff33;
+	font-weight: bold;
+}
+
+/* 1 minuut */
+.p35 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p36 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p38 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p40 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+/* side note: NIEUWE STEM? misschien kleur aanpassen! */
+.p44 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p45 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p46 span {
+	font-family: "brenner mono";
+	color: #66ff33;
+}
+
+.p48 span {
+	font-family: "brenner mono";
+	color: #84d6f7;
+}
+
+.p49 span {
+	font-style: italic;
+	color: white;
+}
+
+/* Deze zin doet raar, help! */
+.p50 span {
+	font-family: "brenner mono";
+	color: #84d6f7;
+}
+
+.p51 span {
+	font-style: italic;
+	color: white;
+}
+
+.p52 span {
+	font-family: "brenner mono";
+	color: #84d6f7;
+}
+
+.p53 span {
+	font-style: italic;
+	color: white;
+}
+
+.p54 span, .p55 span, .p57 span, .p59 span, .p61 span, .p63 span, .p65 span, .p67 span,
+.p69 span, .p71 span, .p73 span, .p75 span, .p77 span, .p79 span  {
+	font-family: "brenner mono";
+	color: #84d6f7;
+}
+
+.p54, .p55, .p57, .p59, .p61, .p63, .p65, .p67,
+.p69, .p71, .p73, .p75, .p77 {
+	background-color:#000000;
+	padding: 2em;
+}
+
+.p56 span, .p58 span, .p60 span, .p62 span, .p64 span, .p66 span, .p68 span,
+.p70 span, .p72 span, .p74 span, .p76 span, .p78 span   {
+	font-style: italic;
+	color: white;
+}
+
+.p56, .p58, .p60, .p62, .p64, .p66, .p68,
+.p70, .p72, .p74, .p76, .p78 {
+	background-color:#000000;
+	padding: 2em;
+}
+
+/* **********************************************
+Sounds.
+	You can style the whole body, or you can 
+	style anything within the body the moment
+	a sound starts.
+*********************************************  */
+
+/* The moment the class .sound1 is added to the body, the background is yellow */
+
+iframe {
+	transition: 1s;
+	clip-path: inset(6.8em 0em);
+}
+/* The moment the class .sound1 is added to the body, the movie makes a turn */
+
+.sound0 {
+	animation-name: intro;
+	animation-duration: 3s;
+}
+
+@keyframes intro {
+	0% {
+		background-color: #ffffff;
+	}
+	100% {
+		background-color: #000000;
+	}
+}
+
+/* Bron: https://animista.net/play/attention/shake */
+.sound0 {
+	-webkit-animation: shake-horizontal 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2 both;
+	        animation: shake-horizontal 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2 both;
+}
+
+@-webkit-keyframes shake-horizontal {
+	0%,
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	}
+	10%,
+	30%,
+	50%,
+	70% {
+	  -webkit-transform: translateX(-10px);
+			  transform: translateX(-10px);
+	}
+	20%,
+	40%,
+	60% {
+	  -webkit-transform: translateX(10px);
+			  transform: translateX(10px);
+	}
+	80% {
+	  -webkit-transform: translateX(8px);
+			  transform: translateX(8px);
+	}
+	90% {
+	  -webkit-transform: translateX(-8px);
+			  transform: translateX(-8px);
+	}
+  }
+  @keyframes shake-horizontal {
+	0%,
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	}
+	10%,
+	30%,
+	50%,
+	70% {
+	  -webkit-transform: translateX(-10px);
+			  transform: translateX(-10px);
+	}
+	20%,
+	40%,
+	60% {
+	  -webkit-transform: translateX(10px);
+			  transform: translateX(10px);
+	}
+	80% {
+	  -webkit-transform: translateX(8px);
+			  transform: translateX(8px);
+	}
+	90% {
+	  -webkit-transform: translateX(-8px);
+			  transform: translateX(-8px);
+	}
+  }
+
+.sound1 {
+	background-color: #000000;
+}
+
+.sound2 {
+	background-color: #1a1f1f;
+}
+
+.sound3 iframe {
+	transform:scale(1.5);
+}
+
+.sound3 {
+	background-color: #7f1714;
+}
+
+.sound4 iframe {
+	transform:scale(1);
+}
+
+.sound4 {
+	background-color: #1a1f1f;
+}
+
+.sound5 {
+	-webkit-animation: color-change-2x 1s linear alternate both;
+	        animation: color-change-2x 1s linear alternate both;
+}
+
+@keyframes color-change-2x {
+	0% {
+	  background-color: #19dcea;
+	}
+	50% {
+		background-color: #a42216;
+	}
+	100% {
+	  background-color: #1a1f1f;
+	}
+  } 
+
+.sound6 iframe {
+	transform:scale(1.5);
+}
+
+.sound6 {
+	-webkit-animation: color-change-2x 1.8s linear alternate both;
+	        animation: sirene 1.8s linear alternate both;
+}
+
+@keyframes sirene {
+	0% {
+	  background-color: #1a1f1f;
+	}
+	50% {
+		background-color: #a42216;
+	}
+	100% {
+	  background-color: #1a1f1f;
+	}
+  } 
+
+.sound7 iframe {
+	transform:scale(1);
+}
+
+.sound8 {
+	-webkit-animation: color-change-2x 0.2s linear alternate both;
+	        animation: scene2 0.2s linear alternate both;
+}
+
+@keyframes scene2 {
+	0% {
+	  background-color: #1a1f1f;
+	}
+	100% {
+	  background-color: #141617;
+	}
+  } 
+
+.sound11 iframe {
+	transform:scale(1.5);
+}
+
+.sound11 {
+	-webkit-animation: color-change-2x 1.8s linear alternate both;
+	        animation: sirene 1.8s linear alternate both;
+}
+
+@keyframes sirene {
+	0% {
+	  background-color: #1a1f1f;
+	}
+	50% {
+		background-color: #a42216;
+	}
+	100% {
+	  background-color: #1a1f1f;
+	}
+  } 
+
+.sound12 iframe {
+	transform:scale(1);
+}
+
+.sound12 {
+	background-color: #1d2424;
+}
+
+.sound14 {
+	-webkit-animation: color-change-2x 1.8s linear alternate both;
+	        animation: sirene3 1.8s linear alternate both;
+}
+
+@keyframes sirene3 {
+	0% {
+	  background-color: #1a1f1f;
+	}
+	50% {
+		background-color: #a42216;
+	}
+	100% {
+	  background-color: #9faa97;
+	}
+  } 
+
+.sound14 iframe {
+	transform:scale(1.5);
+}
+
+.sound15 iframe {
+	transform:scale(1);
+}
+
+.sound16 {
+	-webkit-animation: color-change-2x 41.5s linear alternate both;
+	        animation: pieptoon 41.5s linear alternate both;
+}
+
+@keyframes pieptoon {
+	0% {
+	  background-color: #9faa97;
+	}
+	99% {
+		background-color: red;
+	}
+	100% {
+	  background-color: #9faa97;
+	}
+  } 
+/* bron: https://animista.net/play/attention */
+.sound16 iframe {
+	animation-name: laag;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes laag {
+	0% {
+		transform:translate(0)
+	}
+	20% { 
+		transform:translate(-0.02em,0.02em)
+	}
+	40% { 
+		transform:translate(-0.02em,-0.02em)
+	}
+	60% {
+		transform:translate(0.02em,0.02em)
+	}
+	80% {
+		transform:translate(0.02em,-0.02em)
+		}
+	100% {
+	transform:translate(0)
+	}
+  }
+
+.sound17 iframe {
+	animation-name: hoog;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes hoog {
+	0% {
+		transform:translate(0)
+	}
+	20% { 
+		transform:translate(-0.1em,0.1em)
+	}
+	40% { 
+		transform:translate(-0.1em,-0.1em)
+	}
+	60% {
+		transform:translate(0.1em,0.1em)
+	}
+	80% {
+		transform:translate(0.1em,-0.1em)
+		}
+	100% {
+	transform:translate(0)
+	}
+  }
+
+  .sound18 iframe {
+	animation-name: hoger;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes hoger {
+	0% {
+		transform:translate(0)
+	}
+	20% { 
+		transform:translate(-0.2em,0.2em)
+	}
+	40% { 
+		transform:translate(-0.2em,-0.2em)
+	}
+	60% {
+		transform:translate(0.2em,0.2em)
+	}
+	80% {
+		transform:translate(0.2em,-0.2em)
+		}
+	100% {
+	transform:translate(0)
+	}
+  }
+
+  .sound19 iframe {
+	animation-name: hoogst;
+	animation-duration: 0.3s;
+	animation-iteration-count: 18;
+}
+
+@keyframes hoogst {
+	0% {
+		transform:translate(0)
+	}
+	20% { 
+		transform:translate(-0.4em,0.4em)
+	}
+	40% { 
+		transform:translate(-0.4em,-0.4em)
+	}
+	60% {
+		transform:translate(0.4em,0.4em)
+	}
+	80% {
+		transform:translate(0.4em,-0.4em)
+		}
+	100% {
+	transform:translate(0)
+	}
+  }
+
+  /* Bron: https://daily-dev-tips.com/posts/css-keyframe-animation-floating-blocks/ */
+ /* hIER BEN JE GEBLEVEN */ 
+
+  .sound20 iframe {
+	animation: zweef 10s linear infinite;
+	bottom: 2em;
+}
+
+  @keyframes zweef {
+	0% {
+		transform: translateY(-1.5em);
+
+	}
+	50% 
+	{
+	  transform: translateY(4em);
+	}
+	100% {
+		transform:translateY(-1.5em);
+	}
+  }
+
+.sound21 {
+	background-position: center;
+	background-size: cover;
+	animation-name: glitch;
+	animation-duration: 47s;
+	animation-fill-mode: forwards;
+	opacity: 0.80;
+}
+
+@keyframes glitch {
+  0% {
+	background-image: url("/closed-captions/gif/space1.gif");
+  }
+  20% {
+	background-image: url("/closed-captions/gif/giphy.gif");
+  }
+  40% {
+	  background-image: url("/closed-captions/gif/stutter.gif");
+  }
+  50% {
+	  background-image: url("/closed-captions/gif/indentity.gif")
+  }
+  80% {
+	  background-image: url("/closed-captions/gif/stutter.gif");
+  }
+  100% {
+	  background-image: none;
+  }
+}	
