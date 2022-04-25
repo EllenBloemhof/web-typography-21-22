@@ -27,9 +27,11 @@ body {
 	text-align: center;
 	margin-top: 4em;
 }
+
 #closed-captions .on {
 	opacity: 1;
 }
+
 #closed-captions .off {
 	transition: .2s;
 	opacity: 0;
@@ -60,6 +62,10 @@ p span {
 }
 
 .voice4 :first-of-type:before {
+	content: "🔈  ­";
+}
+
+.voice5 :first-of-type:before {
 	content: "🔈  ­";
 }
 
@@ -304,6 +310,50 @@ You probably want to change the styling.
 	font-family: "brenner mono";
 	color: #66ff33;
 }
+
+.p48 span {
+	font-family: "brenner mono";
+	color: #84d6f7;
+}
+
+.p49 span {
+	font-style: italic;
+	color: white;
+}
+
+/* Deze zin doet raar, help! */
+.p50 span {
+	font-family: "brenner mono";
+	color: #84d6f7;
+}
+
+.p51 span {
+	font-style: italic;
+	color: white;
+}
+
+.p52 span {
+	font-family: "brenner mono";
+	color: #84d6f7;
+}
+
+.p53 span {
+	font-style: italic;
+	color: white;
+}
+
+.p54 span, .p55 span, .p57 span, .p59 span, .p61 span, .p63 span, .p65 span, .p67 span,
+.p69 span, .p71 span, .p73 span, .p75 span, .p77 span, .p79 span  {
+	font-family: "brenner mono";
+	color: #84d6f7;
+}
+
+.p56, .p58 span, .p60 span, .p62 span, .p64 span, .p66 span, .p68 span,
+.p70 span, .p72 span, .p74 span, .p76 span, .p78 span   {
+	font-style: italic;
+	color: white;
+}
+
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -657,29 +707,52 @@ iframe {
 
   /* Bron: https://daily-dev-tips.com/posts/css-keyframe-animation-floating-blocks/ */
  /* hIER BEN JE GEBLEVEN */ 
-  .sound20 iframe {
-	animation: zweef 10s linear 44;
-	bottom: 2em;
 
-	animation: draaien 43s linear 1;
+  .sound20 iframe {
+	animation: zweef 10s linear infinite;
+	bottom: 2em;
 }
 
   @keyframes zweef {
+	0% {
+		transform: translateY(0em);
+
+	}
 	50% 
 	{
 	  transform: translateY(3em);
 	}
+	100% {
+		transform:translateY(0em);
+	}
   }
 
-@keyframes draaien {
-		0% {
-		  -webkit-transform: rotate(0deg);
-		  transform: rotate(0deg);
-		}
-	
-		100% {
-		  -webkit-transform: rotate(720deg);
-		  transform: rotate(720deg);
-		}
-	  }
-	  
+.sound21 {
+	background-position: center;
+	background-size: cover;
+	animation-name: glitch;
+	animation-duration: 47s;
+	animation-fill-mode: forwards;
+	opacity: 0.80;
+}
+
+@keyframes glitch {
+  0% {
+	background-image: url("/closed-captions/gif/space1.gif");
+  }
+  20% {
+	background-image: url("/closed-captions/gif/giphy.gif");
+  }
+  40% {
+	  background-image: url("/closed-captions/gif/stutter.gif");
+  }
+  50% {
+	  background-image: url("/closed-captions/gif/indentity.gif")
+  }
+  80% {
+	  background-image: url("/closed-captions/gif/stutter.gif");
+  }
+  100% {
+	  background-image: none;
+  }
+}	
