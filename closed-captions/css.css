@@ -348,10 +348,22 @@ You probably want to change the styling.
 	color: #84d6f7;
 }
 
-.p56, .p58 span, .p60 span, .p62 span, .p64 span, .p66 span, .p68 span,
+.p54, .p55, .p57, .p59, .p61, .p63, .p65, .p67,
+.p69, .p71, .p73, .p75, .p77 {
+	background-color:#000000;
+	padding: 2em;
+}
+
+.p56 span, .p58 span, .p60 span, .p62 span, .p64 span, .p66 span, .p68 span,
 .p70 span, .p72 span, .p74 span, .p76 span, .p78 span   {
 	font-style: italic;
 	color: white;
+}
+
+.p56, .p58, .p60, .p62, .p64, .p66, .p68,
+.p70, .p72, .p74, .p76, .p78 {
+	background-color:#000000;
+	padding: 2em;
 }
 
 /* **********************************************
@@ -715,15 +727,15 @@ iframe {
 
   @keyframes zweef {
 	0% {
-		transform: translateY(0em);
+		transform: translateY(-1.5em);
 
 	}
 	50% 
 	{
-	  transform: translateY(3em);
+	  transform: translateY(4em);
 	}
 	100% {
-		transform:translateY(0em);
+		transform:translateY(-1.5em);
 	}
   }
 
