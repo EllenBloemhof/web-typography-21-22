@@ -717,19 +717,19 @@ iframe {
 
 @keyframes glitch {
   0% {
-	background-image: url("/closed-captions/gif/space1.gif");
+	background-image: url("./gif/space1.gif");
   }
   20% {
-	background-image: url("/closed-captions/gif/space2.gif");
+	background-image: url("./gif/space2.gif");
   }
   40% {
-	  background-image: url("/closed-captions/gif/stutter.gif");
+	  background-image: url("./gif/stutter.gif");
   }
   50% {
-	  background-image: url("/closed-captions/gif/indentity.gif")
+	  background-image: url("./gif/indentity.gif")
   }
   80% {
-	  background-image: url("/closed-captions/gif/stutter.gif");
+	  background-image: url("./gif/stutter.gif");
   }
   100% {
 	  background-image: none;
