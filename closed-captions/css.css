@@ -295,7 +295,34 @@ You probably want to change the styling.
 	color: #66ff33;
 }
 
-/* side note: NIEUWE STEM? misschien kleur aanpassen! */
+.p40 span:nth-of-type(6)  {
+	background-color:#000000;
+	padding: 0.2em;
+}
+
+.p40 span:nth-of-type(7)  {
+	background-color:#000000;
+	padding: 0.2em;
+}
+
+.p41 span:nth-of-type(4)  {
+	background-color:#000000;
+	padding: 0.6em;
+	color: white;
+}
+
+.p42 span:nth-of-type(4)  {
+	background-color:#000000;
+	padding: 0.6em;
+	color: white;
+}
+
+.p43 span:nth-of-type(4)  {
+	background-color:#000000;
+	padding: 0.6em;
+	color: white;
+}
+
 .p44 span {
 	font-family: "brenner mono";
 	color: #66ff33;
