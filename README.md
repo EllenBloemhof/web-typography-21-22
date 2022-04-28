@@ -25,6 +25,8 @@ Deze stem was voor iedereen een flinke insteker en ik trapte er ook keihard in. 
 
 Echter bleek dit niet het geval te zijn en zegt die man vluchtig, mompelend tegen de hoofdpersoon. Ik heb daardoor de tekst cursief in beeld gezet om te laten zien dat dit niet gesproken is op een normale toon. En gekozen voor een andere kleur, namelijk geel, om te laten zien dat iemand anders dit zegt.
 
+---
+
 *Kleurenkeuze*:
 Door iedere stem een verschillende kleur te geven weet je dat er verschillende personen aan het woord zijn. Ik ben ook op de hoogte dat dit niet werkt bij mensen die visueel beperkt zijn. 
 
@@ -69,13 +71,19 @@ Ik had:
 * de achtergrondkleuren aangepast op basis van een lichte of donkere scene;
 * en het geluid van het alarm nagebootst door het iframe groter/kleiner te laten worden.
 
+---
+
 **Woensdag 20 april:**
 In de les bezig geweest met de opdracht. Ik had het voordeel dat ik de avond daarvoor al bezig was geweest met de opdracht waardoor ik de lestijd kon gebruiken om verder te werken. 
+
+---
 
 **Donderdag 21 april:**
 In de ochtend op school gezeten om te werken aan de code, ik liep vast omdat mijn transform:rotate niet meer werkte. Nadat ik er zelf niet uit kwam na ruim 40 minuten dit nagevraagd bij de docent in de middag, dit is vervolgens opgelost, maar het advies gekregen om dit weg te halen omdat het niks toevoegt aan de typografie - mensen kunnen dit zelf ook lezen.
 
 Verder mijn code verder opgeschoont, dit was een rommeltje.
+
+---
 
 **Vrijdag 22 april:**
 Ik merkte dat ik niet echt een duidelijk plan had de afgelopen dagen en dat ik gewoon aan het spelen was met de video. Waardoor ik niet echt doordachte beslissingen had genomen en daardoor ook niet een goede verantwoording had voor mijn ontwerpkeuzes.
@@ -88,15 +96,21 @@ Eerste feedback ronde gehad in de les; ik moet nog god kijken naar de kleur van 
 
 Verder advies gekregen om te de zwarte balken uit de video weg te halen door clip path toe te voegen.
 
+---
+
 **Zondag 24 april:**
 Afgelopen vrijdag in de les weinig toegekomen aan mijn eigen code omdat ik klasgenoten ging helpen. Daardoor heb ik per ongeluk van mijn eigen code een rommeltje gemaakt. Ik had iets willen aanpassen in de les, ik was daar halverwege mee - raakte afgeleid door vragen, vervolgens verandering niet goed doorgezet en toen werkte mijn video niet meer. 
 
 Vandaag bezig geweest met die kleine fouten herstellen, maar van de ene fout - naar de andere fout. Iedere aanpassing die ik doorvoerde zorgde er weer voor dat iets anders weer niet werkte. Aantal uren bezig geweest om dit te fixen en ook de tijd genomen om mijn code op te schonen.
 
+---
+
 **Maandag 25 april:**
 Maandag samen met Mirte op school gezeten om aan de opdracht te werken. De les ging niet door maar wij waren al onderweg, besloten om met z'n tweetjes op school te zitten zodat we met elkaar kunnen sparren en elkaar kunnen helpen als wij er niet uit komen.
 
-Ik kon maandag beginnen aan de tweede scene van de video.
+Ik kon maandag beginnen aan de tweede scene van de video. Ik heb toen besloten om te spelen met het zweverige geluid, ik heb de achtergrond aangepast en verschillende gif's over elkaar heen laten overlopen - hierbij ook de opacity van de video aangepast zodat het vervreemde daar doorheen komt. Ook het frame op-en-neer laten bewegen.
+
+---
 
 **Dinsdag 26 april:**
 Ik moest nog twee dingen fixen:
@@ -109,8 +123,12 @@ Maar helaas veel problemen gehad met het uploaden van mijn werk op GitHub. Ik ha
 
 Alleen daardoor lukte pushen via de desktop niet meer. Hij wou de code die erop stond niet overschrijven, daarvoor hulp ingeschakeld van een kennis die goed is in backend. Samen daar een uur mee zitten prutsen, zonder resultaat, en opeens... deed die het... ok.. (ugh)
 
+---
+
 **Woensdag 27 april:**
 Ik wou de opdracht de avond hiervoor afmaken maar door frustratie dit een nachtje laten liggen. Vandaag beiden ouders, beiden 60 jaar, de opdracht laten zien, ieder afzonderlijk van elkaar zodat ze elkaar niet kunnen beïnvloeden. Op basis van hun feedback nog kleine aanpassingen gemaakt.
+
+Nog kleine fouten uit mijn code gehaald en mijn verantwoording geschreven.
 
 ## Gebruikte bronnen:
 Long live the internet! Tijdens deze opdracht half Google uitgeplozen. Bronvermelding bevind zich ook in de code maar wil het ook even apart benoemen:
