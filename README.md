@@ -1,3 +1,6 @@
+Ellen Bloemhof | 500823683 | VID2 | Webtypografie
+---
+
 # Verantwoording 
 Bij deze opdracht konden wij kiezen uit twee lettertypes en ik heb gebruik gemaakt van het lettertype dat was inbegrepen bij deze opdracht, namelijk **Brenner**. 
 
@@ -15,15 +18,24 @@ Dit was de stem van de hoofdpersoon. De hoofdpersoon praat erg rustig en is erg 
 
 Deze stem heeft de kleur wit of zwart, wordt aangepast op de omgeving. 
 
-*Kleurenkeuze*:
-Door iedere stem een verschillende kleur te geven weet je dat er verschillende personen aan het woord zijn. Ik ben ook op de hoogte dat dit niet werkt bij mensen die visueel beperkt zijn. 
-
-Ook heeft iedere persoon, behalve voice 3, een emoji voor de tekst staan zodat je door heb dat het gaat om verschillende personen.
+In de eerste scene, op 1 minuut 10, herhaalt de hoofdpersoon één zin driemaal. Dit heb je met audio wel door, maar met alleen de ondertiteling niet want deze veranderde niet. Ervoor gekozen om op de zin daarvoor extra nadruk te leggen op het feit dat de hoofdpersoon dit drie keer moet zeggen en het aantal keren dat hij het gezegd heeft achter de zinnen toe te voegen.
 
 * **voice 3:**
 Deze stem was voor iedereen een flinke insteker en ik trapte er ook keihard in. De man is erg grof uit de hoek en de hoofdpersoon deinst ook voor hem opzij wat dreigend voelt. Daardoor had ik de tekst in eerste instantie redelijk groot vormgegeven en deze keihard in beeld laten komen.
 
 Echter bleek dit niet het geval te zijn en zegt die man vluchtig, mompelend tegen de hoofdpersoon. Ik heb daardoor de tekst cursief in beeld gezet om te laten zien dat dit niet gesproken is op een normale toon. En gekozen voor een andere kleur, namelijk geel, om te laten zien dat iemand anders dit zegt.
+
+*Kleurenkeuze*:
+Door iedere stem een verschillende kleur te geven weet je dat er verschillende personen aan het woord zijn. Ik ben ook op de hoogte dat dit niet werkt bij mensen die visueel beperkt zijn. 
+
+Ook heeft iedere persoon, behalve voice 3, een emoji voor de tekst staan zodat je door heb dat het gaat om verschillende personen.
+
+*Achtergrondgeluiden:*
+* Alarm: meerdere malen in de video hoor je een alarm afgaan op de achtergrond. Het is een indringend geluid dat op je af komt, daarom heb ik het frame op de kijker af laten komen en een rode kleur op de achtergrond geplaatst. Een rode kleur is vaak een gevaartelicht wat ik vond passen bij het alarm.
+
+* Sirene: je hoort in het begin van de video, rond 10 sec., een sirene afgaan. Bij de sirene heb ik de associatie dat de hulpdiensten en dan met name de politie dat geluid produceert. Daarom heb ik ervoor gekozen om voor een blauw-rode achtergrondkleur te gaan. Gebaseerd op politie zwaailichten.
+
+* Pieptoon: in de video zit een indringende pieptoon, hij begint heel subtiel en wordt gedurende de video steeds een niveau erger en stopt vervolgens abrupt. Ik heb het frame laten schudden om te laten zien dat de scene niet rustig en vredig afspeelt zoals het lijkt als je geen audio aan hebt maar dat er iets afspeelt wat gedurende de scene steeds heftiger wordt. Ik heb dit extra aangedikt door de achtergrondkleur langzaam rood te laten worden. Het schudden en de achtergrondkleur stoppen abrupt zodra de audio over is.
 
 **Add nonsense:**
 In de tweede scene speelt er redelijk trippy, vreemde, audio af. De audio voelt raar, redelijk out of space dus daar heb ik op ingespeeld door verschillende gifjes gedurende de audio af te spelen. 
@@ -70,7 +82,7 @@ Ik merkte dat ik niet echt een duidelijk plan had de afgelopen dagen en dat ik g
 
 Besloten om de de video rustig te bekijken op YouTube en goed te luistern naar alle (achtergrond)geluiden in de video. Aantekeningne hiervan gemaakt en deze ook allemaal genoteerd met een timestamp. Dit hielp mij heel erg waardoor ik weer flinke stappen heb kunnen maken.
 
-[Timestamps]("timestamps.png")
+*(Afbeelding daarvan heb ik toegevoegd aan de bestanden hierboven, de afbeelding heet timestamps - ik kreeg het niet voor elkaar om deze afbeelding toe te voegen aan de readme.)*
 
 Eerste feedback ronde gehad in de les; ik moet nog god kijken naar de kleur van mijn tekst omdat het een slecht contrast was met de achtergrondkleur van een scene. Ook advies gekregen om goed te luisteren naar de persoon die grof is in de video: ik heb het visueel bozer gemaakt dan het is.
 
